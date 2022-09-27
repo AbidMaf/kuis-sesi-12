@@ -4,12 +4,22 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  max-width: 80vw;
+  /* padding: 4rem 0; */
+  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.card > p {
+  font-size: 3cqh;
 }
 
 .footer {
